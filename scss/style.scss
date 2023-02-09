@@ -1,0 +1,26 @@
+@import url(../css/fonts.css);
+@import url(../css/reset.css);
+@import url(../css/skip.css);
+@import url(../css/nav-bar.css);
+@import url(../css/main.css);
+
+
+#wrap{
+  width : 100%;
+}
+
+@keyframes slide {
+  0.00% {transform: translateX(-1903px * 0);}
+  8.33% {transform: translateX(-1903px * 0);}
+ 16.67% {transform: translateX(-1903px * 0);}
+ 25.00% {transform: translateX(-1903px * 0);}
+ 33.33% {transform: translateX(-1903px * 1);}
+ 41.67% {transform: translateX(-1903px * 1);}
+ 50.00% {transform: translateX(-1903px * 1);}
+ 58.33% {transform: translateX(-1903px * 1);}
+ 66.67% {transform: translateX(-1903px * 2);}
+ 75.00% {transform: translateX(-1903px * 2);}
+ 83.33% {transform: translateX(-1903px * 2);}
+ 91.67% {transform: translateX(-1903px * 2);}
+100.00% {transform: translateX(-1903px * 3);}
+}

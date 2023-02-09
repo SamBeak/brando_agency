@@ -1,0 +1,80 @@
+#main {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+#main #section1 {
+  width: 100%;
+}
+#main #section1 .container {
+  width: 100%;
+}
+#main #section1 .container .slide-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+#main #section1 .container .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap {
+  width: 400%;
+  display: flex;
+  position: relative;
+  animation: slide 15s infinite ease-in-out;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+  height: 100vh;
+  background: url() no-repeat 50% 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(50, 50, 50, 0.2);
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide div {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide div h2 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide div hr {
+  margin: 80px 0;
+  width: 100%;
+  max-width: 570px;
+  height: 8px;
+  background: #fdd947;
+  border: 0;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide div h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide1 {
+  background-image: url(../IMG/slider-img1.jpg);
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide2 {
+  background-image: url(../IMG/slider-img2.jpg);
+}
+#main #section1 .container .slide-container .slide-view .slide-wrap .slide.slide3 {
+  background-image: url(../IMG/slider-img3.jpg);
+}
